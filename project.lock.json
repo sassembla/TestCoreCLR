@@ -504,18 +504,6 @@
           "lib/dotnet5.4/System.Threading.Tasks.dll": {}
         }
       },
-      "System.Threading.Thread/4.0.0-beta-22231": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime": "4.0.0-beta-22231"
-        },
-        "compile": {
-          "lib/contract/System.Threading.Thread.dll": {}
-        },
-        "runtime": {
-          "lib/aspnetcore50/System.Threading.Thread.dll": {}
-        }
-      },
       "System.Threading.Timer/4.0.1-rc3-23727": {
         "type": "package",
         "dependencies": {
@@ -1307,18 +1295,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/System.Threading.Tasks.dll": {}
-        }
-      },
-      "System.Threading.Thread/4.0.0-rc3-23727": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet5.4/System.Threading.Thread.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Threading.Thread.dll": {}
         }
       },
       "System.Threading.ThreadPool/4.0.10-rc3-23727": {
@@ -3311,47 +3287,6 @@
         "runtimes/aot/lib/netcore50/System.Threading.Tasks.dll"
       ]
     },
-    "System.Threading.Thread/4.0.0-beta-22231": {
-      "sha512": "vGmlcvTqh7XvBHzUUBS7abKjoBYM0mHzf+vv9uGHFNaxYpKjdMBiyW6V/FADe/jwW6xrKXM4/AH60cyshduv8w==",
-      "type": "package",
-      "files": [
-        "License.rtf",
-        "System.Threading.Thread.4.0.0-beta-22231.nupkg.sha512",
-        "System.Threading.Thread.nuspec",
-        "lib/aspnetcore50/System.Threading.Thread.dll",
-        "lib/contract/System.Threading.Thread.dll"
-      ]
-    },
-    "System.Threading.Thread/4.0.0-rc3-23727": {
-      "sha512": "j3ZvluGabm4ecYajnK1rCfYWr0OiwH+TXWfrzLn+FNMUtiZaF1j+xA6J+SwngHxsyaha3rQY0+ZUlVE4Qcin2A==",
-      "type": "package",
-      "files": [
-        "System.Threading.Thread.4.0.0-rc3-23727.nupkg.sha512",
-        "System.Threading.Thread.nuspec",
-        "lib/DNXCore50/System.Threading.Thread.dll",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Threading.Thread.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/dotnet5.4/System.Threading.Thread.dll",
-        "ref/dotnet5.4/System.Threading.Thread.xml",
-        "ref/dotnet5.4/de/System.Threading.Thread.xml",
-        "ref/dotnet5.4/es/System.Threading.Thread.xml",
-        "ref/dotnet5.4/fr/System.Threading.Thread.xml",
-        "ref/dotnet5.4/it/System.Threading.Thread.xml",
-        "ref/dotnet5.4/ja/System.Threading.Thread.xml",
-        "ref/dotnet5.4/ko/System.Threading.Thread.xml",
-        "ref/dotnet5.4/ru/System.Threading.Thread.xml",
-        "ref/dotnet5.4/zh-hans/System.Threading.Thread.xml",
-        "ref/dotnet5.4/zh-hant/System.Threading.Thread.xml",
-        "ref/net46/System.Threading.Thread.dll",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._"
-      ]
-    },
     "System.Threading.ThreadPool/4.0.10-rc3-23727": {
       "sha512": "a7zCbIBpHW1hf1J8ZuZxq6eaMGvO2FYN4GOIaxRj85phoZdAgjKKV8ThmmevhcdfZlWJlurCkyd6UP7q4zNMiA==",
       "type": "package",
@@ -3432,8 +3367,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "NETStandard.Library >= 1.0.0-rc3-23727",
-      "System.Threading.Thread >= 1.0.0-rc3-23727"
+      "NETStandard.Library >= 1.0.0-rc3-23727"
     ],
     "DNXCore,Version=v5.0": []
   }
